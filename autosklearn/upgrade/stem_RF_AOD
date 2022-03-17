@@ -1,0 +1,825 @@
+
+The following have been reloaded with a version change:
+  1) bzip2/1.0.6-qrd3gzl => bzip2/1.0.8-fslu4ek
+  2) ncurses/6.0-3ncf3bb => ncurses/6.2-n5qqcgu
+  3) openssl/1.0.2n-ycmyhhj => openssl/1.1.1k-eb2lcth
+  4) readline/7.0-jushdjv => readline/8.0-q67xey7
+
+Index(['age', 'age_invalid_flag', 'height', 'height_invalid_flag', 'body_type',
+       'diet', 'drinks', 'drugs', 'education', 'ethnicity', 'income',
+       'location', 'offspring', 'orientation', 'pets', 'religion', 'sex',
+       'sign', 'smokes', 'speaks', 'status', 'job'],
+      dtype='object')
+################################################################################
+Use self defined accuracy metric
+/home/gnguyen/.local/lib/python3.6/site-packages/pandas/compat/__init__.py:120: UserWarning: Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+  warnings.warn(msg)
+/home/gnguyen/.local/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:516: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/gnguyen/.local/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:517: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/gnguyen/.local/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:518: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/gnguyen/.local/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:519: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/gnguyen/.local/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:520: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/gnguyen/.local/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:525: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+/home/gnguyen/.local/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:541: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/gnguyen/.local/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:542: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/gnguyen/.local/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:543: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/gnguyen/.local/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:544: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/gnguyen/.local/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:545: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/gnguyen/.local/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:550: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+IPython could not be loaded!
+Columns (7) have mixed types.Specify dtype option on import or set low_memory=False.
+[WARNING] [2021-07-26 10:11:59,747:Client-AutoMLSMBO(1)::ab184fee-ee23-11eb-a3e2-ac1f6bb17544] Could not find meta-data directory /work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/metalearning/files/accu_binary.classification_dense
+-4.11790221523719 0.03723366579250533 0.034371643394199784 0.03612697563803639 0.816997443078047 0.1095647662799947
+-4.11790221523719 0.03723366579250533 0.034371643394199784 0.03612697563803639 0.816997443078047 0.1095647662799947
+-4.11790221523719 0.03723366579250533 0.034371643394199784 0.03612697563803639 0.816997443078047 0.1095647662799947
+[WARNING] [2021-07-26 10:13:16,514:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 10:15:06,745:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 10:15:13,681:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 10:17:08,115:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[ERROR] [2021-07-26 10:17:23,747:Client-EnsembleBuilder] Caught ValueError: Traceback (most recent call last):
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/ensemble_builder.py", line 1268, in fit_ensemble
+    include_num_runs)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/ensembles/ensemble_selection.py", line 64, in fit
+    self._fit(predictions, labels)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/ensembles/ensemble_selection.py", line 75, in _fit
+    self._fast(predictions, labels)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/ensembles/ensemble_selection.py", line 141, in _fast
+    scoring_functions=None
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/metrics/__init__.py", line 452, in calculate_loss
+    scoring_functions=scoring_functions,
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/metrics/__init__.py", line 412, in calculate_score
+    return _compute_scorer(metric, prediction, solution, task_type)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/metrics/__init__.py", line 542, in _compute_scorer
+    score = metric(solution, prediction)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/metrics/__init__.py", line 101, in __call__
+    **self._kwargs)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/stem_RF_AOD.py", line 268, in accuracy
+    print(math.log(fairness1),fairness2,fairness3,fairness4, np.mean(solution == prediction), fairness4*0.5+ (1-np.mean(solution == prediction))*0.5)
+ValueError: math domain error
+
+-3.3208977942944613 0.09043042056624864 0.1004976064499874 0.09428559374236202 0.8071350298307561 0.14357528195580294
+-4.11790221523719 0.03723366579250533 0.034371643394199784 0.03612697563803639 0.816997443078047 0.1095647662799947
+-3.3208977942944613 0.09043042056624864 0.1004976064499874 0.09428559374236202 0.8071350298307561 0.14357528195580294
+-4.11790221523719 0.03723366579250533 0.034371643394199784 0.03612697563803639 0.816997443078047 0.1095647662799947
+[WARNING] [2021-07-26 10:17:23,771:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 10:17:38,376:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 10:17:49,650:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[ERROR] [2021-07-26 10:18:18,426:Client-EnsembleBuilder] Caught ValueError: Traceback (most recent call last):
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/ensemble_builder.py", line 1268, in fit_ensemble
+    include_num_runs)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/ensembles/ensemble_selection.py", line 64, in fit
+    self._fit(predictions, labels)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/ensembles/ensemble_selection.py", line 75, in _fit
+    self._fast(predictions, labels)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/ensembles/ensemble_selection.py", line 141, in _fast
+    scoring_functions=None
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/metrics/__init__.py", line 452, in calculate_loss
+    scoring_functions=scoring_functions,
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/metrics/__init__.py", line 412, in calculate_score
+    return _compute_scorer(metric, prediction, solution, task_type)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/metrics/__init__.py", line 542, in _compute_scorer
+    score = metric(solution, prediction)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/metrics/__init__.py", line 101, in __call__
+    **self._kwargs)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/stem_RF_AOD.py", line 268, in accuracy
+    print(math.log(fairness1),fairness2,fairness3,fairness4, np.mean(solution == prediction), fairness4*0.5+ (1-np.mean(solution == prediction))*0.5)
+ValueError: math domain error
+
+-0.3485586459424273 0.025951563746481554 0.026213019320788747 0.026018496543649086 0.7824181176184098 0.12180018946261961
+-4.11790221523719 0.03723366579250533 0.034371643394199784 0.03612697563803639 0.816997443078047 0.1095647662799947
+-0.3485586459424273 0.025951563746481554 0.026213019320788747 0.026018496543649086 0.7824181176184098 0.12180018946261961
+-3.3208977942944613 0.09043042056624864 0.1004976064499874 0.09428559374236202 0.8071350298307561 0.14357528195580294
+-4.11790221523719 0.03723366579250533 0.034371643394199784 0.03612697563803639 0.816997443078047 0.1095647662799947
+-2.4131541229987645 0.03446102253927058 0.034976661229794065 0.034642068605010644 0.8161451357603798 0.10924846642231541
+[WARNING] [2021-07-26 10:18:18,451:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[ERROR] [2021-07-26 10:18:37,701:Client-EnsembleBuilder] Caught ValueError: Traceback (most recent call last):
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/ensemble_builder.py", line 1268, in fit_ensemble
+    include_num_runs)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/ensembles/ensemble_selection.py", line 64, in fit
+    self._fit(predictions, labels)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/ensembles/ensemble_selection.py", line 75, in _fit
+    self._fast(predictions, labels)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/ensembles/ensemble_selection.py", line 141, in _fast
+    scoring_functions=None
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/metrics/__init__.py", line 452, in calculate_loss
+    scoring_functions=scoring_functions,
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/metrics/__init__.py", line 412, in calculate_score
+    return _compute_scorer(metric, prediction, solution, task_type)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/metrics/__init__.py", line 542, in _compute_scorer
+    score = metric(solution, prediction)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/metrics/__init__.py", line 101, in __call__
+    **self._kwargs)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/stem_RF_AOD.py", line 268, in accuracy
+    print(math.log(fairness1),fairness2,fairness3,fairness4, np.mean(solution == prediction), fairness4*0.5+ (1-np.mean(solution == prediction))*0.5)
+ValueError: math domain error
+
+-2.6382509121373876 0.5922149650416099 0.6172955536990624 0.6017099860201137 0.6579812492390114 0.4718643683905512
+-4.11790221523719 0.03723366579250533 0.034371643394199784 0.03612697563803639 0.816997443078047 0.1095647662799947
+-0.3485586459424273 0.025951563746481554 0.026213019320788747 0.026018496543649086 0.7824181176184098 0.12180018946261961
+-3.3208977942944613 0.09043042056624864 0.1004976064499874 0.09428559374236202 0.8071350298307561 0.14357528195580294
+-2.6382509121373876 0.5922149650416099 0.6172955536990624 0.6017099860201137 0.6579812492390114 0.4718643683905512
+-4.11790221523719 0.03723366579250533 0.034371643394199784 0.03612697563803639 0.816997443078047 0.1095647662799947
+-2.4131541229987645 0.03446102253927058 0.034976661229794065 0.034642068605010644 0.8161451357603798 0.10924846642231541
+[WARNING] [2021-07-26 10:18:37,725:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 10:19:53,651:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[ERROR] [2021-07-26 10:20:56,155:Client-EnsembleBuilder] Caught ValueError: Traceback (most recent call last):
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/ensemble_builder.py", line 1268, in fit_ensemble
+    include_num_runs)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/ensembles/ensemble_selection.py", line 64, in fit
+    self._fit(predictions, labels)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/ensembles/ensemble_selection.py", line 75, in _fit
+    self._fast(predictions, labels)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/ensembles/ensemble_selection.py", line 141, in _fast
+    scoring_functions=None
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/metrics/__init__.py", line 452, in calculate_loss
+    scoring_functions=scoring_functions,
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/metrics/__init__.py", line 412, in calculate_score
+    return _compute_scorer(metric, prediction, solution, task_type)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/metrics/__init__.py", line 542, in _compute_scorer
+    score = metric(solution, prediction)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/metrics/__init__.py", line 101, in __call__
+    **self._kwargs)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/stem_RF_AOD.py", line 268, in accuracy
+    print(math.log(fairness1),fairness2,fairness3,fairness4, np.mean(solution == prediction), fairness4*0.5+ (1-np.mean(solution == prediction))*0.5)
+ValueError: math domain error
+
+-6.223591982991962 0.4653532166271514 0.4882527084908037 0.47416760729436613 0.7272616583465238 0.3734529744739212
+-4.11790221523719 0.03723366579250533 0.034371643394199784 0.03612697563803639 0.816997443078047 0.1095647662799947
+-0.3485586459424273 0.025951563746481554 0.026213019320788747 0.026018496543649086 0.7824181176184098 0.12180018946261961
+-3.3208977942944613 0.09043042056624864 0.1004976064499874 0.09428559374236202 0.8071350298307561 0.14357528195580294
+-6.223591982991962 0.4653532166271514 0.4882527084908037 0.47416760729436613 0.7272616583465238 0.3734529744739212
+-2.6382509121373876 0.5922149650416099 0.6172955536990624 0.6017099860201137 0.6579812492390114 0.4718643683905512
+-4.11790221523719 0.03723366579250533 0.034371643394199784 0.03612697563803639 0.816997443078047 0.1095647662799947
+-2.4131541229987645 0.03446102253927058 0.034976661229794065 0.034642068605010644 0.8161451357603798 0.10924846642231541
+[WARNING] [2021-07-26 10:20:56,181:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 10:24:19,694:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 10:24:19,694:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[ERROR] [2021-07-26 10:24:44,359:Client-EnsembleBuilder] Caught ValueError: Traceback (most recent call last):
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/ensemble_builder.py", line 1268, in fit_ensemble
+    include_num_runs)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/ensembles/ensemble_selection.py", line 64, in fit
+    self._fit(predictions, labels)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/ensembles/ensemble_selection.py", line 75, in _fit
+    self._fast(predictions, labels)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/ensembles/ensemble_selection.py", line 141, in _fast
+    scoring_functions=None
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/metrics/__init__.py", line 452, in calculate_loss
+    scoring_functions=scoring_functions,
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/metrics/__init__.py", line 412, in calculate_score
+    return _compute_scorer(metric, prediction, solution, task_type)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/metrics/__init__.py", line 542, in _compute_scorer
+    score = metric(solution, prediction)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/metrics/__init__.py", line 101, in __call__
+    **self._kwargs)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/stem_RF_AOD.py", line 268, in accuracy
+    print(math.log(fairness1),fairness2,fairness3,fairness4, np.mean(solution == prediction), fairness4*0.5+ (1-np.mean(solution == prediction))*0.5)
+ValueError: math domain error
+
+-4.3718342445199845 0.5540176377895714 0.5818365357839042 0.5646955159237155 0.705223426275417 0.42973604482414923
+-4.11790221523719 0.03723366579250533 0.034371643394199784 0.03612697563803639 0.816997443078047 0.1095647662799947
+-0.3485586459424273 0.025951563746481554 0.026213019320788747 0.026018496543649086 0.7824181176184098 0.12180018946261961
+-3.3208977942944613 0.09043042056624864 0.1004976064499874 0.09428559374236202 0.8071350298307561 0.14357528195580294
+-6.223591982991962 0.4653532166271514 0.4882527084908037 0.47416760729436613 0.7272616583465238 0.3734529744739212
+-4.3718342445199845 0.5540176377895714 0.5818365357839042 0.5646955159237155 0.705223426275417 0.42973604482414923
+-2.6382509121373876 0.5922149650416099 0.6172955536990624 0.6017099860201137 0.6579812492390114 0.4718643683905512
+-4.11790221523719 0.03723366579250533 0.034371643394199784 0.03612697563803639 0.816997443078047 0.1095647662799947
+-2.4131541229987645 0.03446102253927058 0.034976661229794065 0.034642068605010644 0.8161451357603798 0.10924846642231541
+[WARNING] [2021-07-26 10:24:44,383:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 10:24:44,384:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 10:24:57,750:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 10:24:57,751:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 10:25:18,838:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 10:25:18,838:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 10:25:40,450:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 10:25:40,450:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 10:25:55,227:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 10:25:55,228:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 10:27:28,290:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 10:27:28,291:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 10:27:37,470:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 10:27:37,470:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[ERROR] [2021-07-26 10:28:01,657:Client-EnsembleBuilder] Caught ValueError: Traceback (most recent call last):
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/ensemble_builder.py", line 1268, in fit_ensemble
+    include_num_runs)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/ensembles/ensemble_selection.py", line 64, in fit
+    self._fit(predictions, labels)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/ensembles/ensemble_selection.py", line 75, in _fit
+    self._fast(predictions, labels)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/ensembles/ensemble_selection.py", line 141, in _fast
+    scoring_functions=None
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/metrics/__init__.py", line 452, in calculate_loss
+    scoring_functions=scoring_functions,
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/metrics/__init__.py", line 412, in calculate_score
+    return _compute_scorer(metric, prediction, solution, task_type)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/metrics/__init__.py", line 542, in _compute_scorer
+    score = metric(solution, prediction)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/metrics/__init__.py", line 101, in __call__
+    **self._kwargs)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/stem_RF_AOD.py", line 268, in accuracy
+    print(math.log(fairness1),fairness2,fairness3,fairness4, np.mean(solution == prediction), fairness4*0.5+ (1-np.mean(solution == prediction))*0.5)
+ValueError: math domain error
+
+-2.9369649813130776 0.5006548457031441 0.5139087798862235 0.5057073378156461 0.7089979301107999 0.3983547038524231
+-4.11790221523719 0.03723366579250533 0.034371643394199784 0.03612697563803639 0.816997443078047 0.1095647662799947
+-0.3485586459424273 0.025951563746481554 0.026213019320788747 0.026018496543649086 0.7824181176184098 0.12180018946261961
+-3.3208977942944613 0.09043042056624864 0.1004976064499874 0.09428559374236202 0.8071350298307561 0.14357528195580294
+-6.223591982991962 0.4653532166271514 0.4882527084908037 0.47416760729436613 0.7272616583465238 0.3734529744739212
+-2.9369649813130776 0.5006548457031441 0.5139087798862235 0.5057073378156461 0.7089979301107999 0.3983547038524231
+-4.3718342445199845 0.5540176377895714 0.5818365357839042 0.5646955159237155 0.705223426275417 0.42973604482414923
+-2.6382509121373876 0.5922149650416099 0.6172955536990624 0.6017099860201137 0.6579812492390114 0.4718643683905512
+-4.11790221523719 0.03723366579250533 0.034371643394199784 0.03612697563803639 0.816997443078047 0.1095647662799947
+-2.4131541229987645 0.03446102253927058 0.034976661229794065 0.034642068605010644 0.8161451357603798 0.10924846642231541
+[WARNING] [2021-07-26 10:28:01,684:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 10:28:01,684:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 10:28:18,686:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 10:28:18,686:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[ERROR] [2021-07-26 10:28:44,784:Client-EnsembleBuilder] Caught ValueError: Traceback (most recent call last):
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/ensemble_builder.py", line 1268, in fit_ensemble
+    include_num_runs)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/ensembles/ensemble_selection.py", line 64, in fit
+    self._fit(predictions, labels)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/ensembles/ensemble_selection.py", line 75, in _fit
+    self._fast(predictions, labels)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/ensembles/ensemble_selection.py", line 141, in _fast
+    scoring_functions=None
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/metrics/__init__.py", line 452, in calculate_loss
+    scoring_functions=scoring_functions,
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/metrics/__init__.py", line 412, in calculate_score
+    return _compute_scorer(metric, prediction, solution, task_type)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/metrics/__init__.py", line 542, in _compute_scorer
+    score = metric(solution, prediction)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/metrics/__init__.py", line 101, in __call__
+    **self._kwargs)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/stem_RF_AOD.py", line 268, in accuracy
+    print(math.log(fairness1),fairness2,fairness3,fairness4, np.mean(solution == prediction), fairness4*0.5+ (1-np.mean(solution == prediction))*0.5)
+ValueError: math domain error
+
+-4.5970248957617015 0.5444849128090127 0.57263860709976 0.5552915479614156 0.7069280409107512 0.42418175352533216
+-4.11790221523719 0.03723366579250533 0.034371643394199784 0.03612697563803639 0.816997443078047 0.1095647662799947
+-0.3485586459424273 0.025951563746481554 0.026213019320788747 0.026018496543649086 0.7824181176184098 0.12180018946261961
+-3.3208977942944613 0.09043042056624864 0.1004976064499874 0.09428559374236202 0.8071350298307561 0.14357528195580294
+-6.223591982991962 0.4653532166271514 0.4882527084908037 0.47416760729436613 0.7272616583465238 0.3734529744739212
+-2.9369649813130776 0.5006548457031441 0.5139087798862235 0.5057073378156461 0.7089979301107999 0.3983547038524231
+-4.5970248957617015 0.5444849128090127 0.57263860709976 0.5552915479614156 0.7069280409107512 0.42418175352533216
+-4.3718342445199845 0.5540176377895714 0.5818365357839042 0.5646955159237155 0.705223426275417 0.42973604482414923
+-2.6382509121373876 0.5922149650416099 0.6172955536990624 0.6017099860201137 0.6579812492390114 0.4718643683905512
+-4.11790221523719 0.03723366579250533 0.034371643394199784 0.03612697563803639 0.816997443078047 0.1095647662799947
+-2.4131541229987645 0.03446102253927058 0.034976661229794065 0.034642068605010644 0.8161451357603798 0.10924846642231541
+[WARNING] [2021-07-26 10:28:44,809:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 10:28:44,809:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 10:28:59,456:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 10:28:59,456:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 10:29:18,800:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 10:29:18,801:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[ERROR] [2021-07-26 10:29:45,170:Client-EnsembleBuilder] Caught ValueError: Traceback (most recent call last):
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/ensemble_builder.py", line 1268, in fit_ensemble
+    include_num_runs)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/ensembles/ensemble_selection.py", line 64, in fit
+    self._fit(predictions, labels)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/ensembles/ensemble_selection.py", line 75, in _fit
+    self._fast(predictions, labels)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/ensembles/ensemble_selection.py", line 141, in _fast
+    scoring_functions=None
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/metrics/__init__.py", line 452, in calculate_loss
+    scoring_functions=scoring_functions,
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/metrics/__init__.py", line 412, in calculate_score
+    return _compute_scorer(metric, prediction, solution, task_type)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/metrics/__init__.py", line 542, in _compute_scorer
+    score = metric(solution, prediction)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/metrics/__init__.py", line 101, in __call__
+    **self._kwargs)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/stem_RF_AOD.py", line 268, in accuracy
+    print(math.log(fairness1),fairness2,fairness3,fairness4, np.mean(solution == prediction), fairness4*0.5+ (1-np.mean(solution == prediction))*0.5)
+ValueError: math domain error
+
+-3.7124371071290256 0.0738511886398474 0.07686710161647506 0.07500843764273932 0.8038475587483258 0.13558043944720677
+-4.11790221523719 0.03723366579250533 0.034371643394199784 0.03612697563803639 0.816997443078047 0.1095647662799947
+-0.3485586459424273 0.025951563746481554 0.026213019320788747 0.026018496543649086 0.7824181176184098 0.12180018946261961
+-3.7124371071290256 0.0738511886398474 0.07686710161647506 0.07500843764273932 0.8038475587483258 0.13558043944720677
+-3.3208977942944613 0.09043042056624864 0.1004976064499874 0.09428559374236202 0.8071350298307561 0.14357528195580294
+-6.223591982991962 0.4653532166271514 0.4882527084908037 0.47416760729436613 0.7272616583465238 0.3734529744739212
+-2.9369649813130776 0.5006548457031441 0.5139087798862235 0.5057073378156461 0.7089979301107999 0.3983547038524231
+-4.5970248957617015 0.5444849128090127 0.57263860709976 0.5552915479614156 0.7069280409107512 0.42418175352533216
+-4.3718342445199845 0.5540176377895714 0.5818365357839042 0.5646955159237155 0.705223426275417 0.42973604482414923
+-2.6382509121373876 0.5922149650416099 0.6172955536990624 0.6017099860201137 0.6579812492390114 0.4718643683905512
+-4.11790221523719 0.03723366579250533 0.034371643394199784 0.03612697563803639 0.816997443078047 0.1095647662799947
+-2.4131541229987645 0.03446102253927058 0.034976661229794065 0.034642068605010644 0.8161451357603798 0.10924846642231541
+-4.68659522132373 0.03311250432770022 0.036519871106337275 0.03442030439677861 0.8141970047485694 0.11011164982410462
+[WARNING] [2021-07-26 10:29:45,195:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 10:29:45,196:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[ERROR] [2021-07-26 10:30:08,367:Client-EnsembleBuilder] Caught ValueError: Traceback (most recent call last):
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/ensemble_builder.py", line 1268, in fit_ensemble
+    include_num_runs)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/ensembles/ensemble_selection.py", line 64, in fit
+    self._fit(predictions, labels)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/ensembles/ensemble_selection.py", line 75, in _fit
+    self._fast(predictions, labels)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/ensembles/ensemble_selection.py", line 141, in _fast
+    scoring_functions=None
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/metrics/__init__.py", line 452, in calculate_loss
+    scoring_functions=scoring_functions,
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/metrics/__init__.py", line 412, in calculate_score
+    return _compute_scorer(metric, prediction, solution, task_type)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/metrics/__init__.py", line 542, in _compute_scorer
+    score = metric(solution, prediction)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/metrics/__init__.py", line 101, in __call__
+    **self._kwargs)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/stem_RF_AOD.py", line 268, in accuracy
+    print(math.log(fairness1),fairness2,fairness3,fairness4, np.mean(solution == prediction), fairness4*0.5+ (1-np.mean(solution == prediction))*0.5)
+ValueError: math domain error
+
+-5.017025143488979 0.04619887436997926 0.04403866809881848 0.04536503490491218 0.8191890904663338 0.11308797221928918
+-4.11790221523719 0.03723366579250533 0.034371643394199784 0.03612697563803639 0.816997443078047 0.1095647662799947
+-5.017025143488979 0.04619887436997926 0.04403866809881848 0.04536503490491218 0.8191890904663338 0.11308797221928918
+-0.3485586459424273 0.025951563746481554 0.026213019320788747 0.026018496543649086 0.7824181176184098 0.12180018946261961
+-3.7124371071290256 0.0738511886398474 0.07686710161647506 0.07500843764273932 0.8038475587483258 0.13558043944720677
+-3.3208977942944613 0.09043042056624864 0.1004976064499874 0.09428559374236202 0.8071350298307561 0.14357528195580294
+-6.223591982991962 0.4653532166271514 0.4882527084908037 0.47416760729436613 0.7272616583465238 0.3734529744739212
+-2.9369649813130776 0.5006548457031441 0.5139087798862235 0.5057073378156461 0.7089979301107999 0.3983547038524231
+-4.5970248957617015 0.5444849128090127 0.57263860709976 0.5552915479614156 0.7069280409107512 0.42418175352533216
+-4.3718342445199845 0.5540176377895714 0.5818365357839042 0.5646955159237155 0.705223426275417 0.42973604482414923
+-2.6382509121373876 0.5922149650416099 0.6172955536990624 0.6017099860201137 0.6579812492390114 0.4718643683905512
+-4.11790221523719 0.03723366579250533 0.034371643394199784 0.03612697563803639 0.816997443078047 0.1095647662799947
+[WARNING] [2021-07-26 10:30:08,400:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 10:30:08,400:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 10:30:39,161:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 10:30:39,162:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 10:34:02,635:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 10:34:02,635:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[ERROR] [2021-07-26 10:35:29,651:Client-EnsembleBuilder] Caught ValueError: Traceback (most recent call last):
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/ensemble_builder.py", line 1268, in fit_ensemble
+    include_num_runs)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/ensembles/ensemble_selection.py", line 64, in fit
+    self._fit(predictions, labels)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/ensembles/ensemble_selection.py", line 75, in _fit
+    self._fast(predictions, labels)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/ensembles/ensemble_selection.py", line 141, in _fast
+    scoring_functions=None
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/metrics/__init__.py", line 452, in calculate_loss
+    scoring_functions=scoring_functions,
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/metrics/__init__.py", line 412, in calculate_score
+    return _compute_scorer(metric, prediction, solution, task_type)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/metrics/__init__.py", line 542, in _compute_scorer
+    score = metric(solution, prediction)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/metrics/__init__.py", line 101, in __call__
+    **self._kwargs)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/stem_RF_AOD.py", line 268, in accuracy
+    print(math.log(fairness1),fairness2,fairness3,fairness4, np.mean(solution == prediction), fairness4*0.5+ (1-np.mean(solution == prediction))*0.5)
+ValueError: math domain error
+
+-3.29390197594556 0.5435770106113783 0.5517000172388644 0.5466499149283944 0.6669913551686351 0.4398292798798797
+-4.11790221523719 0.03723366579250533 0.034371643394199784 0.03612697563803639 0.816997443078047 0.1095647662799947
+-5.017025143488979 0.04619887436997926 0.04403866809881848 0.04536503490491218 0.8191890904663338 0.11308797221928918
+-0.3485586459424273 0.025951563746481554 0.026213019320788747 0.026018496543649086 0.7824181176184098 0.12180018946261961
+-3.7124371071290256 0.0738511886398474 0.07686710161647506 0.07500843764273932 0.8038475587483258 0.13558043944720677
+-3.3208977942944613 0.09043042056624864 0.1004976064499874 0.09428559374236202 0.8071350298307561 0.14357528195580294
+-6.223591982991962 0.4653532166271514 0.4882527084908037 0.47416760729436613 0.7272616583465238 0.3734529744739212
+-2.9369649813130776 0.5006548457031441 0.5139087798862235 0.5057073378156461 0.7089979301107999 0.3983547038524231
+-4.5970248957617015 0.5444849128090127 0.57263860709976 0.5552915479614156 0.7069280409107512 0.42418175352533216
+-4.3718342445199845 0.5540176377895714 0.5818365357839042 0.5646955159237155 0.705223426275417 0.42973604482414923
+-3.29390197594556 0.5435770106113783 0.5517000172388644 0.5466499149283944 0.6669913551686351 0.4398292798798797
+-2.6382509121373876 0.5922149650416099 0.6172955536990624 0.6017099860201137 0.6579812492390114 0.4718643683905512
+-4.11790221523719 0.03723366579250533 0.034371643394199784 0.03612697563803639 0.816997443078047 0.1095647662799947
+[WARNING] [2021-07-26 10:35:29,677:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 10:35:29,677:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 10:35:47,476:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 10:35:47,476:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[ERROR] [2021-07-26 10:38:50,294:Client-EnsembleBuilder] Caught ValueError: Traceback (most recent call last):
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/ensemble_builder.py", line 1268, in fit_ensemble
+    include_num_runs)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/ensembles/ensemble_selection.py", line 64, in fit
+    self._fit(predictions, labels)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/ensembles/ensemble_selection.py", line 75, in _fit
+    self._fast(predictions, labels)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/ensembles/ensemble_selection.py", line 141, in _fast
+    scoring_functions=None
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/metrics/__init__.py", line 452, in calculate_loss
+    scoring_functions=scoring_functions,
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/metrics/__init__.py", line 412, in calculate_score
+    return _compute_scorer(metric, prediction, solution, task_type)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/metrics/__init__.py", line 542, in _compute_scorer
+    score = metric(solution, prediction)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/metrics/__init__.py", line 101, in __call__
+    **self._kwargs)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/stem_RF_AOD.py", line 268, in accuracy
+    print(math.log(fairness1),fairness2,fairness3,fairness4, np.mean(solution == prediction), fairness4*0.5+ (1-np.mean(solution == prediction))*0.5)
+ValueError: math domain error
+
+-3.2800161890323327 0.047275791015526876 0.044174589913938286 0.04609447895380745 0.8101789845367101 0.11795774720854867
+-4.11790221523719 0.03723366579250533 0.034371643394199784 0.03612697563803639 0.816997443078047 0.1095647662799947
+-5.017025143488979 0.04619887436997926 0.04403866809881848 0.04536503490491218 0.8191890904663338 0.11308797221928918
+-3.2800161890323327 0.047275791015526876 0.044174589913938286 0.04609447895380745 0.8101789845367101 0.11795774720854867
+-0.3485586459424273 0.025951563746481554 0.026213019320788747 0.026018496543649086 0.7824181176184098 0.12180018946261961
+-3.7124371071290256 0.0738511886398474 0.07686710161647506 0.07500843764273932 0.8038475587483258 0.13558043944720677
+-3.3208977942944613 0.09043042056624864 0.1004976064499874 0.09428559374236202 0.8071350298307561 0.14357528195580294
+-6.223591982991962 0.4653532166271514 0.4882527084908037 0.47416760729436613 0.7272616583465238 0.3734529744739212
+-2.9369649813130776 0.5006548457031441 0.5139087798862235 0.5057073378156461 0.7089979301107999 0.3983547038524231
+-4.5970248957617015 0.5444849128090127 0.57263860709976 0.5552915479614156 0.7069280409107512 0.42418175352533216
+-4.3718342445199845 0.5540176377895714 0.5818365357839042 0.5646955159237155 0.705223426275417 0.42973604482414923
+-3.29390197594556 0.5435770106113783 0.5517000172388644 0.5466499149283944 0.6669913551686351 0.4398292798798797
+-2.6382509121373876 0.5922149650416099 0.6172955536990624 0.6017099860201137 0.6579812492390114 0.4718643683905512
+-4.11790221523719 0.03723366579250533 0.034371643394199784 0.03612697563803639 0.816997443078047 0.1095647662799947
+[WARNING] [2021-07-26 10:38:50,320:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 10:38:50,321:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[ERROR] [2021-07-26 10:41:29,348:Client-EnsembleBuilder] Caught ValueError: Traceback (most recent call last):
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/ensemble_builder.py", line 1268, in fit_ensemble
+    include_num_runs)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/ensembles/ensemble_selection.py", line 64, in fit
+    self._fit(predictions, labels)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/ensembles/ensemble_selection.py", line 75, in _fit
+    self._fast(predictions, labels)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/ensembles/ensemble_selection.py", line 141, in _fast
+    scoring_functions=None
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/metrics/__init__.py", line 452, in calculate_loss
+    scoring_functions=scoring_functions,
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/metrics/__init__.py", line 412, in calculate_score
+    return _compute_scorer(metric, prediction, solution, task_type)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/metrics/__init__.py", line 542, in _compute_scorer
+    score = metric(solution, prediction)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/metrics/__init__.py", line 101, in __call__
+    **self._kwargs)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/stem_RF_AOD.py", line 268, in accuracy
+    print(math.log(fairness1),fairness2,fairness3,fairness4, np.mean(solution == prediction), fairness4*0.5+ (1-np.mean(solution == prediction))*0.5)
+ValueError: math domain error
+
+-3.181542863247093 0.24179051859338793 0.23073722666454496 0.23751286777515795 0.7754779008888347 0.23101748344316161
+-4.11790221523719 0.03723366579250533 0.034371643394199784 0.03612697563803639 0.816997443078047 0.1095647662799947
+-5.017025143488979 0.04619887436997926 0.04403866809881848 0.04536503490491218 0.8191890904663338 0.11308797221928918
+-3.2800161890323327 0.047275791015526876 0.044174589913938286 0.04609447895380745 0.8101789845367101 0.11795774720854867
+-0.3485586459424273 0.025951563746481554 0.026213019320788747 0.026018496543649086 0.7824181176184098 0.12180018946261961
+-3.7124371071290256 0.0738511886398474 0.07686710161647506 0.07500843764273932 0.8038475587483258 0.13558043944720677
+-3.3208977942944613 0.09043042056624864 0.1004976064499874 0.09428559374236202 0.8071350298307561 0.14357528195580294
+-3.181542863247093 0.24179051859338793 0.23073722666454496 0.23751286777515795 0.7754779008888347 0.23101748344316161
+-6.223591982991962 0.4653532166271514 0.4882527084908037 0.47416760729436613 0.7272616583465238 0.3734529744739212
+-2.9369649813130776 0.5006548457031441 0.5139087798862235 0.5057073378156461 0.7089979301107999 0.3983547038524231
+-4.5970248957617015 0.5444849128090127 0.57263860709976 0.5552915479614156 0.7069280409107512 0.42418175352533216
+-4.3718342445199845 0.5540176377895714 0.5818365357839042 0.5646955159237155 0.705223426275417 0.42973604482414923
+-3.29390197594556 0.5435770106113783 0.5517000172388644 0.5466499149283944 0.6669913551686351 0.4398292798798797
+-2.6382509121373876 0.5922149650416099 0.6172955536990624 0.6017099860201137 0.6579812492390114 0.4718643683905512
+-4.11790221523719 0.03723366579250533 0.034371643394199784 0.03612697563803639 0.816997443078047 0.1095647662799947
+[WARNING] [2021-07-26 10:41:29,375:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 10:41:29,375:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[ERROR] [2021-07-26 10:41:53,975:Client-EnsembleBuilder] Caught ValueError: Traceback (most recent call last):
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/ensemble_builder.py", line 1268, in fit_ensemble
+    include_num_runs)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/ensembles/ensemble_selection.py", line 64, in fit
+    self._fit(predictions, labels)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/ensembles/ensemble_selection.py", line 75, in _fit
+    self._fast(predictions, labels)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/ensembles/ensemble_selection.py", line 141, in _fast
+    scoring_functions=None
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/metrics/__init__.py", line 452, in calculate_loss
+    scoring_functions=scoring_functions,
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/metrics/__init__.py", line 412, in calculate_score
+    return _compute_scorer(metric, prediction, solution, task_type)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/metrics/__init__.py", line 542, in _compute_scorer
+    score = metric(solution, prediction)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/metrics/__init__.py", line 101, in __call__
+    **self._kwargs)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/stem_RF_AOD.py", line 268, in accuracy
+    print(math.log(fairness1),fairness2,fairness3,fairness4, np.mean(solution == prediction), fairness4*0.5+ (1-np.mean(solution == prediction))*0.5)
+ValueError: math domain error
+
+-4.9706795413890195 0.5732046541058851 0.5945899802416094 0.5814077214968498 0.7001095823694143 0.44064906956371774
+-4.11790221523719 0.03723366579250533 0.034371643394199784 0.03612697563803639 0.816997443078047 0.1095647662799947
+-5.017025143488979 0.04619887436997926 0.04403866809881848 0.04536503490491218 0.8191890904663338 0.11308797221928918
+-3.2800161890323327 0.047275791015526876 0.044174589913938286 0.04609447895380745 0.8101789845367101 0.11795774720854867
+-0.3485586459424273 0.025951563746481554 0.026213019320788747 0.026018496543649086 0.7824181176184098 0.12180018946261961
+-3.7124371071290256 0.0738511886398474 0.07686710161647506 0.07500843764273932 0.8038475587483258 0.13558043944720677
+-3.3208977942944613 0.09043042056624864 0.1004976064499874 0.09428559374236202 0.8071350298307561 0.14357528195580294
+-3.181542863247093 0.24179051859338793 0.23073722666454496 0.23751286777515795 0.7754779008888347 0.23101748344316161
+-6.223591982991962 0.4653532166271514 0.4882527084908037 0.47416760729436613 0.7272616583465238 0.3734529744739212
+-2.9369649813130776 0.5006548457031441 0.5139087798862235 0.5057073378156461 0.7089979301107999 0.3983547038524231
+-4.5970248957617015 0.5444849128090127 0.57263860709976 0.5552915479614156 0.7069280409107512 0.42418175352533216
+-4.3718342445199845 0.5540176377895714 0.5818365357839042 0.5646955159237155 0.705223426275417 0.42973604482414923
+-3.29390197594556 0.5435770106113783 0.5517000172388644 0.5466499149283944 0.6669913551686351 0.4398292798798797
+-4.9706795413890195 0.5732046541058851 0.5945899802416094 0.5814077214968498 0.7001095823694143 0.44064906956371774
+-2.6382509121373876 0.5922149650416099 0.6172955536990624 0.6017099860201137 0.6579812492390114 0.4718643683905512
+-4.11790221523719 0.03723366579250533 0.034371643394199784 0.03612697563803639 0.816997443078047 0.1095647662799947
+[WARNING] [2021-07-26 10:41:54,001:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 10:41:54,002:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 10:42:06,577:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 10:42:06,577:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 10:42:29,604:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 10:42:29,604:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 10:42:44,907:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 10:42:44,908:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[ERROR] [2021-07-26 10:43:25,633:Client-EnsembleBuilder] Caught ValueError: Traceback (most recent call last):
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/ensemble_builder.py", line 1268, in fit_ensemble
+    include_num_runs)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/ensembles/ensemble_selection.py", line 64, in fit
+    self._fit(predictions, labels)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/ensembles/ensemble_selection.py", line 75, in _fit
+    self._fast(predictions, labels)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/ensembles/ensemble_selection.py", line 141, in _fast
+    scoring_functions=None
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/metrics/__init__.py", line 452, in calculate_loss
+    scoring_functions=scoring_functions,
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/metrics/__init__.py", line 412, in calculate_score
+    return _compute_scorer(metric, prediction, solution, task_type)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/metrics/__init__.py", line 542, in _compute_scorer
+    score = metric(solution, prediction)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/metrics/__init__.py", line 101, in __call__
+    **self._kwargs)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/stem_RF_AOD.py", line 268, in accuracy
+    print(math.log(fairness1),fairness2,fairness3,fairness4, np.mean(solution == prediction), fairness4*0.5+ (1-np.mean(solution == prediction))*0.5)
+ValueError: math domain error
+
+-4.4611900783934635 0.26367990536679486 0.26268879871636763 0.2632842501697023 0.7917934981127481 0.2357453760284771
+-4.11790221523719 0.03723366579250533 0.034371643394199784 0.03612697563803639 0.816997443078047 0.1095647662799947
+-5.017025143488979 0.04619887436997926 0.04403866809881848 0.04536503490491218 0.8191890904663338 0.11308797221928918
+-3.2800161890323327 0.047275791015526876 0.044174589913938286 0.04609447895380745 0.8101789845367101 0.11795774720854867
+-0.3485586459424273 0.025951563746481554 0.026213019320788747 0.026018496543649086 0.7824181176184098 0.12180018946261961
+-3.7124371071290256 0.0738511886398474 0.07686710161647506 0.07500843764273932 0.8038475587483258 0.13558043944720677
+-3.3208977942944613 0.09043042056624864 0.1004976064499874 0.09428559374236202 0.8071350298307561 0.14357528195580294
+-3.181542863247093 0.24179051859338793 0.23073722666454496 0.23751286777515795 0.7754779008888347 0.23101748344316161
+-4.4611900783934635 0.26367990536679486 0.26268879871636763 0.2632842501697023 0.7917934981127481 0.2357453760284771
+-6.223591982991962 0.4653532166271514 0.4882527084908037 0.47416760729436613 0.7272616583465238 0.3734529744739212
+-2.9369649813130776 0.5006548457031441 0.5139087798862235 0.5057073378156461 0.7089979301107999 0.3983547038524231
+-4.5970248957617015 0.5444849128090127 0.57263860709976 0.5552915479614156 0.7069280409107512 0.42418175352533216
+-4.3718342445199845 0.5540176377895714 0.5818365357839042 0.5646955159237155 0.705223426275417 0.42973604482414923
+-3.29390197594556 0.5435770106113783 0.5517000172388644 0.5466499149283944 0.6669913551686351 0.4398292798798797
+-4.9706795413890195 0.5732046541058851 0.5945899802416094 0.5814077214968498 0.7001095823694143 0.44064906956371774
+-2.6382509121373876 0.5922149650416099 0.6172955536990624 0.6017099860201137 0.6579812492390114 0.4718643683905512
+-4.11790221523719 0.03723366579250533 0.034371643394199784 0.03612697563803639 0.816997443078047 0.1095647662799947
+[WARNING] [2021-07-26 10:43:25,660:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 10:43:25,661:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 10:44:18,355:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 10:44:18,356:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[ERROR] [2021-07-26 10:44:46,381:Client-EnsembleBuilder] Caught ValueError: Traceback (most recent call last):
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/ensemble_builder.py", line 1268, in fit_ensemble
+    include_num_runs)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/ensembles/ensemble_selection.py", line 64, in fit
+    self._fit(predictions, labels)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/ensembles/ensemble_selection.py", line 75, in _fit
+    self._fast(predictions, labels)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/ensembles/ensemble_selection.py", line 141, in _fast
+    scoring_functions=None
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/metrics/__init__.py", line 452, in calculate_loss
+    scoring_functions=scoring_functions,
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/metrics/__init__.py", line 412, in calculate_score
+    return _compute_scorer(metric, prediction, solution, task_type)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/metrics/__init__.py", line 542, in _compute_scorer
+    score = metric(solution, prediction)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/metrics/__init__.py", line 101, in __call__
+    **self._kwargs)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/stem_RF_AOD.py", line 268, in accuracy
+    print(math.log(fairness1),fairness2,fairness3,fairness4, np.mean(solution == prediction), fairness4*0.5+ (1-np.mean(solution == prediction))*0.5)
+ValueError: math domain error
+
+-2.448000854328933 0.10740964301543607 0.1239308588932649 0.11375624055314039 0.8012906367953245 0.15623280187890792
+-4.11790221523719 0.03723366579250533 0.034371643394199784 0.03612697563803639 0.816997443078047 0.1095647662799947
+-5.017025143488979 0.04619887436997926 0.04403866809881848 0.04536503490491218 0.8191890904663338 0.11308797221928918
+-3.2800161890323327 0.047275791015526876 0.044174589913938286 0.04609447895380745 0.8101789845367101 0.11795774720854867
+-0.3485586459424273 0.025951563746481554 0.026213019320788747 0.026018496543649086 0.7824181176184098 0.12180018946261961
+-3.7124371071290256 0.0738511886398474 0.07686710161647506 0.07500843764273932 0.8038475587483258 0.13558043944720677
+-3.3208977942944613 0.09043042056624864 0.1004976064499874 0.09428559374236202 0.8071350298307561 0.14357528195580294
+-2.448000854328933 0.10740964301543607 0.1239308588932649 0.11375624055314039 0.8012906367953245 0.15623280187890792
+-3.181542863247093 0.24179051859338793 0.23073722666454496 0.23751286777515795 0.7754779008888347 0.23101748344316161
+-4.4611900783934635 0.26367990536679486 0.26268879871636763 0.2632842501697023 0.7917934981127481 0.2357453760284771
+-6.223591982991962 0.4653532166271514 0.4882527084908037 0.47416760729436613 0.7272616583465238 0.3734529744739212
+-2.9369649813130776 0.5006548457031441 0.5139087798862235 0.5057073378156461 0.7089979301107999 0.3983547038524231
+-4.5970248957617015 0.5444849128090127 0.57263860709976 0.5552915479614156 0.7069280409107512 0.42418175352533216
+-4.3718342445199845 0.5540176377895714 0.5818365357839042 0.5646955159237155 0.705223426275417 0.42973604482414923
+-3.29390197594556 0.5435770106113783 0.5517000172388644 0.5466499149283944 0.6669913551686351 0.4398292798798797
+-4.9706795413890195 0.5732046541058851 0.5945899802416094 0.5814077214968498 0.7001095823694143 0.44064906956371774
+-2.6382509121373876 0.5922149650416099 0.6172955536990624 0.6017099860201137 0.6579812492390114 0.4718643683905512
+-4.11790221523719 0.03723366579250533 0.034371643394199784 0.03612697563803639 0.816997443078047 0.1095647662799947
+[WARNING] [2021-07-26 10:44:46,408:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 10:44:46,409:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[ERROR] [2021-07-26 10:45:48,092:Client-EnsembleBuilder] Caught ValueError: Traceback (most recent call last):
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/ensemble_builder.py", line 1268, in fit_ensemble
+    include_num_runs)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/ensembles/ensemble_selection.py", line 64, in fit
+    self._fit(predictions, labels)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/ensembles/ensemble_selection.py", line 75, in _fit
+    self._fast(predictions, labels)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/ensembles/ensemble_selection.py", line 141, in _fast
+    scoring_functions=None
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/metrics/__init__.py", line 452, in calculate_loss
+    scoring_functions=scoring_functions,
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/metrics/__init__.py", line 412, in calculate_score
+    return _compute_scorer(metric, prediction, solution, task_type)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/metrics/__init__.py", line 542, in _compute_scorer
+    score = metric(solution, prediction)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/metrics/__init__.py", line 101, in __call__
+    **self._kwargs)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/stem_RF_AOD.py", line 268, in accuracy
+    print(math.log(fairness1),fairness2,fairness3,fairness4, np.mean(solution == prediction), fairness4*0.5+ (1-np.mean(solution == prediction))*0.5)
+ValueError: math domain error
+
+-0.5410479485268125 0.01547949057742902 0.01934731007412712 0.016996605297651297 0.8048216242542311 0.1060874905217101
+-0.5410479485268125 0.01547949057742902 0.01934731007412712 0.016996605297651297 0.8048216242542311 0.1060874905217101
+-4.11790221523719 0.03723366579250533 0.034371643394199784 0.03612697563803639 0.816997443078047 0.1095647662799947
+-5.017025143488979 0.04619887436997926 0.04403866809881848 0.04536503490491218 0.8191890904663338 0.11308797221928918
+-3.2800161890323327 0.047275791015526876 0.044174589913938286 0.04609447895380745 0.8101789845367101 0.11795774720854867
+-0.3485586459424273 0.025951563746481554 0.026213019320788747 0.026018496543649086 0.7824181176184098 0.12180018946261961
+-3.7124371071290256 0.0738511886398474 0.07686710161647506 0.07500843764273932 0.8038475587483258 0.13558043944720677
+-3.3208977942944613 0.09043042056624864 0.1004976064499874 0.09428559374236202 0.8071350298307561 0.14357528195580294
+-2.448000854328933 0.10740964301543607 0.1239308588932649 0.11375624055314039 0.8012906367953245 0.15623280187890792
+-3.181542863247093 0.24179051859338793 0.23073722666454496 0.23751286777515795 0.7754779008888347 0.23101748344316161
+-4.4611900783934635 0.26367990536679486 0.26268879871636763 0.2632842501697023 0.7917934981127481 0.2357453760284771
+-6.223591982991962 0.4653532166271514 0.4882527084908037 0.47416760729436613 0.7272616583465238 0.3734529744739212
+-2.9369649813130776 0.5006548457031441 0.5139087798862235 0.5057073378156461 0.7089979301107999 0.3983547038524231
+-4.5970248957617015 0.5444849128090127 0.57263860709976 0.5552915479614156 0.7069280409107512 0.42418175352533216
+-4.3718342445199845 0.5540176377895714 0.5818365357839042 0.5646955159237155 0.705223426275417 0.42973604482414923
+-3.29390197594556 0.5435770106113783 0.5517000172388644 0.5466499149283944 0.6669913551686351 0.4398292798798797
+-4.9706795413890195 0.5732046541058851 0.5945899802416094 0.5814077214968498 0.7001095823694143 0.44064906956371774
+-2.6382509121373876 0.5922149650416099 0.6172955536990624 0.6017099860201137 0.6579812492390114 0.4718643683905512
+-0.5410479485268125 0.01547949057742902 0.01934731007412712 0.016996605297651297 0.8048216242542311 0.1060874905217101
+-3.198948365943551 0.014483514795927924 0.017185821697099892 0.015517216424768901 0.8168756848898089 0.09932076576748
+-3.7642621749936116 0.01297962733957862 0.01288936627282492 0.012942019274373277 0.8173627176427615 0.0977896508158059
+-3.8920955465034965 0.014791586268509562 0.01611170784103115 0.01529650026660325 0.8143187629368075 0.10048886866489788
+-0.5132550719426174 0.02376243899818903 0.03311353781278594 0.027331142881647244 0.7981249239011323 0.11460310949025745
+-3.693644607779658 0.024147295750226293 0.034371643394199784 0.02807444838332876 0.8149275538779983 0.10657344725266522
+-3.4596017660074128 0.02846978598491262 0.03544575725026853 0.031144520339314037 0.8178497503957141 0.10664738497179999
+-1.865358068314229 0.02858601830615643 0.03987813448966331 0.032909515657157676 0.8137099719956167 0.10959977183077049
+-3.2706043548499864 0.05461821279843145 0.05692803437164339 0.055486499983063764 0.8141970047485694 0.1206447476172472
+-3.5031597403465424 0.05955684597828105 0.06337271750805586 0.061007342876143664 0.8178497503957141 0.12157879624021481
+-3.1242248197476146 0.06698169719284679 0.07471887390433757 0.0699434899440639 0.8126141483014733 0.12866467082129532
+-2.822159057812053 0.10717451135597222 0.10949828274389678 0.10810611109250037 0.8040910751248022 0.1520075179838491
+-3.1998368600046665 0.10872702535440004 0.12486905093421385 0.11495081267744102 0.8082308535248995 0.15335997957627073
+-3.0957641297083205 0.11052682764781134 0.12654818262587686 0.1167128881002819 0.8106660172896627 0.1530234354053096
+-4.173759546629714 0.09852004126805616 0.11385606874328678 0.10440480425867245 0.800194813101181 0.1521049955787457
+-2.808112567851346 0.09118710910369499 0.10674503719616502 0.09720359701397153 0.8103007427249482 0.14345142714451165
+-2.7822200655566762 0.11671939297205053 0.12654818262587686 0.12050029871041046 0.803238767807135 0.15863076545163773
+-2.1201387045716213 0.018070962747230926 0.021618198936494675 0.019441282797498856 0.8160233775721417 0.10170895261267857
+[WARNING] [2021-07-26 10:45:48,119:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 10:45:48,119:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 10:46:01,453:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 10:46:01,453:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 10:49:14,483:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 10:49:14,483:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 10:49:30,891:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 10:49:30,891:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 10:49:56,313:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 10:49:56,314:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[ERROR] [2021-07-26 10:50:44,614:Client-EnsembleBuilder] Caught ValueError: Traceback (most recent call last):
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/ensemble_builder.py", line 1268, in fit_ensemble
+    include_num_runs)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/ensembles/ensemble_selection.py", line 64, in fit
+    self._fit(predictions, labels)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/ensembles/ensemble_selection.py", line 75, in _fit
+    self._fast(predictions, labels)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/ensembles/ensemble_selection.py", line 141, in _fast
+    scoring_functions=None
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/metrics/__init__.py", line 452, in calculate_loss
+    scoring_functions=scoring_functions,
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/metrics/__init__.py", line 412, in calculate_score
+    return _compute_scorer(metric, prediction, solution, task_type)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/metrics/__init__.py", line 542, in _compute_scorer
+    score = metric(solution, prediction)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/metrics/__init__.py", line 101, in __call__
+    **self._kwargs)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/stem_RF_AOD.py", line 268, in accuracy
+    print(math.log(fairness1),fairness2,fairness3,fairness4, np.mean(solution == prediction), fairness4*0.5+ (1-np.mean(solution == prediction))*0.5)
+ValueError: math domain error
+
+-0.17858989519430155 0.04837057047245025 0.06424626380766729 0.05451637714622867 0.6660172896627298 0.19424954374174946
+-0.5410479485268125 0.01547949057742902 0.01934731007412712 0.016996605297651297 0.8048216242542311 0.1060874905217101
+-4.11790221523719 0.03723366579250533 0.034371643394199784 0.03612697563803639 0.816997443078047 0.1095647662799947
+-5.017025143488979 0.04619887436997926 0.04403866809881848 0.04536503490491218 0.8191890904663338 0.11308797221928918
+-3.2800161890323327 0.047275791015526876 0.044174589913938286 0.04609447895380745 0.8101789845367101 0.11795774720854867
+-0.3485586459424273 0.025951563746481554 0.026213019320788747 0.026018496543649086 0.7824181176184098 0.12180018946261961
+-3.7124371071290256 0.0738511886398474 0.07686710161647506 0.07500843764273932 0.8038475587483258 0.13558043944720677
+-3.3208977942944613 0.09043042056624864 0.1004976064499874 0.09428559374236202 0.8071350298307561 0.14357528195580294
+-2.448000854328933 0.10740964301543607 0.1239308588932649 0.11375624055314039 0.8012906367953245 0.15623280187890792
+-0.17858989519430155 0.04837057047245025 0.06424626380766729 0.05451637714622867 0.6660172896627298 0.19424954374174946
+-3.181542863247093 0.24179051859338793 0.23073722666454496 0.23751286777515795 0.7754779008888347 0.23101748344316161
+-4.4611900783934635 0.26367990536679486 0.26268879871636763 0.2632842501697023 0.7917934981127481 0.2357453760284771
+-6.223591982991962 0.4653532166271514 0.4882527084908037 0.47416760729436613 0.7272616583465238 0.3734529744739212
+-2.9369649813130776 0.5006548457031441 0.5139087798862235 0.5057073378156461 0.7089979301107999 0.3983547038524231
+-4.5970248957617015 0.5444849128090127 0.57263860709976 0.5552915479614156 0.7069280409107512 0.42418175352533216
+-4.3718342445199845 0.5540176377895714 0.5818365357839042 0.5646955159237155 0.705223426275417 0.42973604482414923
+-3.29390197594556 0.5435770106113783 0.5517000172388644 0.5466499149283944 0.6669913551686351 0.4398292798798797
+-4.9706795413890195 0.5732046541058851 0.5945899802416094 0.5814077214968498 0.7001095823694143 0.44064906956371774
+-2.6382509121373876 0.5922149650416099 0.6172955536990624 0.6017099860201137 0.6579812492390114 0.4718643683905512
+-0.5410479485268125 0.01547949057742902 0.01934731007412712 0.016996605297651297 0.8048216242542311 0.1060874905217101
+-3.198948365943551 0.014483514795927924 0.017185821697099892 0.015517216424768901 0.8168756848898089 0.09932076576748
+-3.7642621749936116 0.01297962733957862 0.01288936627282492 0.012942019274373277 0.8173627176427615 0.0977896508158059
+-3.8920955465034965 0.014791586268509562 0.01611170784103115 0.01529650026660325 0.8143187629368075 0.10048886866489788
+-0.5132550719426174 0.02376243899818903 0.03311353781278594 0.027331142881647244 0.7981249239011323 0.11460310949025745
+-3.693644607779658 0.024147295750226293 0.034371643394199784 0.02807444838332876 0.8149275538779983 0.10657344725266522
+-3.4596017660074128 0.02846978598491262 0.03544575725026853 0.031144520339314037 0.8178497503957141 0.10664738497179999
+-1.865358068314229 0.02858601830615643 0.03987813448966331 0.032909515657157676 0.8137099719956167 0.10959977183077049
+-0.256745328018762 0.024708609788250013 0.032670963122090946 0.027761324875755042 0.7699987824181176 0.12888127122881873
+-3.2706043548499864 0.05461821279843145 0.05692803437164339 0.055486499983063764 0.8141970047485694 0.1206447476172472
+-3.5031597403465424 0.05955684597828105 0.06337271750805586 0.061007342876143664 0.8178497503957141 0.12157879624021481
+-3.1242248197476146 0.06698169719284679 0.07471887390433757 0.0699434899440639 0.8126141483014733 0.12866467082129532
+-2.822159057812053 0.10717451135597222 0.10949828274389678 0.10810611109250037 0.8040910751248022 0.1520075179838491
+-3.1998368600046665 0.10872702535440004 0.12486905093421385 0.11495081267744102 0.8082308535248995 0.15335997957627073
+-3.0957641297083205 0.11052682764781134 0.12654818262587686 0.1167128881002819 0.8106660172896627 0.1530234354053096
+-4.173759546629714 0.09852004126805616 0.11385606874328678 0.10440480425867245 0.800194813101181 0.1521049955787457
+-2.808112567851346 0.09118710910369499 0.10674503719616502 0.09720359701397153 0.8103007427249482 0.14345142714451165
+-2.7822200655566762 0.11671939297205053 0.12654818262587686 0.12050029871041046 0.803238767807135 0.15863076545163773
+-2.1201387045716213 0.018070962747230926 0.021618198936494675 0.019441282797498856 0.8160233775721417 0.10170895261267857
+[WARNING] [2021-07-26 10:50:44,642:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 10:50:44,642:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 10:51:08,161:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 10:51:08,162:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 10:54:29,296:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 10:54:29,296:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 10:54:53,621:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 10:54:53,621:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 10:55:05,206:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 10:55:05,207:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 10:55:22,616:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 10:55:22,616:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 10:56:08,055:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 10:56:08,056:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 10:59:31,974:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 10:59:31,975:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 10:59:49,234:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 10:59:49,234:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 11:00:05,858:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 11:00:05,858:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 11:01:09,882:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 11:01:09,883:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 11:01:54,554:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 11:01:54,554:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 11:02:44,348:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 11:02:44,348:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[ERROR] [2021-07-26 11:03:25,229:Client-EnsembleBuilder] Caught ValueError: Traceback (most recent call last):
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/ensemble_builder.py", line 1268, in fit_ensemble
+    include_num_runs)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/ensembles/ensemble_selection.py", line 64, in fit
+    self._fit(predictions, labels)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/ensembles/ensemble_selection.py", line 75, in _fit
+    self._fast(predictions, labels)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/ensembles/ensemble_selection.py", line 141, in _fast
+    scoring_functions=None
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/metrics/__init__.py", line 452, in calculate_loss
+    scoring_functions=scoring_functions,
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/metrics/__init__.py", line 412, in calculate_score
+    return _compute_scorer(metric, prediction, solution, task_type)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/metrics/__init__.py", line 542, in _compute_scorer
+    score = metric(solution, prediction)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/autosklearn/metrics/__init__.py", line 101, in __call__
+    **self._kwargs)
+  File "/work/hridesh/gnguyen/auto-sklearn/model4/auto-sklearn-0.12.6/stem_RF_AOD.py", line 268, in accuracy
+    print(math.log(fairness1),fairness2,fairness3,fairness4, np.mean(solution == prediction), fairness4*0.5+ (1-np.mean(solution == prediction))*0.5)
+ValueError: math domain error
+
+-0.3630647933314562 0.003371295528925908 0.0062474307461776145 0.004477772126358647 0.8140752465603311 0.09520126278301375
+-0.3630647933314562 0.003371295528925908 0.0062474307461776145 0.004477772126358647 0.8140752465603311 0.09520126278301375
+-0.5410479485268125 0.01547949057742902 0.01934731007412712 0.016996605297651297 0.8048216242542311 0.1060874905217101
+-4.11790221523719 0.03723366579250533 0.034371643394199784 0.03612697563803639 0.816997443078047 0.1095647662799947
+-5.017025143488979 0.04619887436997926 0.04403866809881848 0.04536503490491218 0.8191890904663338 0.11308797221928918
+-3.2800161890323327 0.047275791015526876 0.044174589913938286 0.04609447895380745 0.8101789845367101 0.11795774720854867
+-0.3485586459424273 0.025951563746481554 0.026213019320788747 0.026018496543649086 0.7824181176184098 0.12180018946261961
+-3.7124371071290256 0.0738511886398474 0.07686710161647506 0.07500843764273932 0.8038475587483258 0.13558043944720677
+-3.3208977942944613 0.09043042056624864 0.1004976064499874 0.09428559374236202 0.8071350298307561 0.14357528195580294
+-2.448000854328933 0.10740964301543607 0.1239308588932649 0.11375624055314039 0.8012906367953245 0.15623280187890792
+-0.17858989519430155 0.04837057047245025 0.06424626380766729 0.05451637714622867 0.6660172896627298 0.19424954374174946
+-3.181542863247093 0.24179051859338793 0.23073722666454496 0.23751286777515795 0.7754779008888347 0.23101748344316161
+-4.4611900783934635 0.26367990536679486 0.26268879871636763 0.2632842501697023 0.7917934981127481 0.2357453760284771
+-6.223591982991962 0.4653532166271514 0.4882527084908037 0.47416760729436613 0.7272616583465238 0.3734529744739212
+-2.9369649813130776 0.5006548457031441 0.5139087798862235 0.5057073378156461 0.7089979301107999 0.3983547038524231
+-4.5970248957617015 0.5444849128090127 0.57263860709976 0.5552915479614156 0.7069280409107512 0.42418175352533216
+-4.3718342445199845 0.5540176377895714 0.5818365357839042 0.5646955159237155 0.705223426275417 0.42973604482414923
+-3.29390197594556 0.5435770106113783 0.5517000172388644 0.5466499149283944 0.6669913551686351 0.4398292798798797
+-4.9706795413890195 0.5732046541058851 0.5945899802416094 0.5814077214968498 0.7001095823694143 0.44064906956371774
+-2.6382509121373876 0.5922149650416099 0.6172955536990624 0.6017099860201137 0.6579812492390114 0.4718643683905512
+-0.3630647933314562 0.003371295528925908 0.0062474307461776145 0.004477772126358647 0.8140752465603311 0.09520126278301375
+-0.7820225814840949 0.010594817973610426 0.012963957512829694 0.011552586550318978 0.8123706319249969 0.09959097731266103
+[WARNING] [2021-07-26 11:03:25,258:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 11:03:25,258:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 11:04:09,836:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 11:04:09,836:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 11:04:41,724:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 11:04:41,724:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 11:08:02,946:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 11:08:02,946:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 11:08:16,937:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 11:08:16,938:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 11:10:05,409:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 11:10:05,410:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 11:11:44,412:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[WARNING] [2021-07-26 11:11:44,412:smac.runhistory.runhistory2epm.RunHistory2EPM4LogCost] Got cost of smaller/equal to 0. Replace by 0.000010 since we use log cost.
+[(1.000000, SimpleClassificationPipeline({'balancing:strategy': 'none', 'classifier:__choice__': 'random_forest', 'data_preprocessing:categorical_transformer:categorical_encoding:__choice__': 'one_hot_encoding', 'data_preprocessing:categorical_transformer:category_coalescence:__choice__': 'minority_coalescer', 'data_preprocessing:numerical_transformer:imputation:strategy': 'mean', 'data_preprocessing:numerical_transformer:rescaling:__choice__': 'standardize', 'feature_preprocessor:__choice__': 'no_preprocessing', 'classifier:random_forest:bootstrap': 'True', 'classifier:random_forest:criterion': 'gini', 'classifier:random_forest:max_depth': 'None', 'classifier:random_forest:max_features': 0.5, 'classifier:random_forest:max_leaf_nodes': 'None', 'classifier:random_forest:min_impurity_decrease': 0.0, 'classifier:random_forest:min_samples_leaf': 1, 'classifier:random_forest:min_samples_split': 2, 'classifier:random_forest:min_weight_fraction_leaf': 0.0, 'data_preprocessing:categorical_transformer:category_coalescence:minority_coalescer:minimum_fraction': 0.01},
+dataset_properties={
+  'task': 1,
+  'sparse': False,
+  'multilabel': False,
+  'multiclass': False,
+  'target_type': 'classification',
+  'signed': False})),
+]
+10437 10666
+Accuracy score: 0.8097693605850366
+0.0 final
+0.03549287042777433
+0.07138677589233469
+0.046973168675663445
