@@ -275,7 +275,7 @@ def accuracy(solution, prediction):
 
     if os.stat("beta.txt").st_size == 0:
 
-        default = XGBClassifier(learning_rate = 0.01, n_estimator = 300, max_depth=4, subsample=1, min_child_weight=1, seed= 0)
+        default = XGBClassifier()
         degrees = [0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1]
         mutation_strategies = {"0": [1, 0], "1": [0, 1]}
         dataset_orig = subset_data_orig_train
