@@ -91,5 +91,5 @@ def average_odds_difference(subset_data_orig_train, prediction, y_test, protecte
 
     # print(total_unprivileged_count, total_privileged_count, total_unprivileged_count1, total_privileged_count1)
     return (abs((unprivileged_count / total_unprivileged_count) - (privileged_count / total_privileged_count))
-                + abs((unprivileged_count1 / total_unprivileged_count1) - (privileged_count1 / total_privileged_count1))/2)
+                + abs((unprivileged_count1 / total_unprivileged_count1) - (privileged_count1 / total_privileged_count1)))/2
 
