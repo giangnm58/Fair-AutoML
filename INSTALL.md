@@ -3,7 +3,7 @@ To run Fair-AutoML, we need to install Python 3 environment on Linux.
 The current version has been tested on Python 3.10. 
 
 ### Environment Setup
-Follow these steps to clone the Fairify repository and install Fair-AutoML.
+Follow these steps to clone the Fair-AutoML repository and install Fair-AutoML.
 
 1. Clone this repository and move to the directory:
 
