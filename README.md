@@ -36,7 +36,7 @@ The current version has been tested on Python 3.10.
 
 ## Installation
 ### Environment Setup
-Follow these steps to clone the Fairify repository and install Fair-AutoML.
+Follow these steps to clone the Fair-AutoML repository and install Fair-AutoML.
 
 1. Clone this repository and move to the directory:
 
