@@ -19,6 +19,19 @@ Fair-AutoML is an extension of Auto-Sklearn, which is used to repair fairness bu
 * To reproduce the results, run files in the "evaluation" folder. Each file contains the dataset, buggy models, and the pruned search space. The name of each file represents "dataset + ML algorithm + fairness metric."
 * The dataset can be found in the "dataset" folder.
 
+## Index
+> 1. Datasets
+  >> * [Adult Census](dataset/adult)
+  >> * [Bank Marketing](dataset/bank)
+  >> * [German Credit](dataset/german)
+  >> * [Titanic](dataset/titanic)
+> 2. Evaluation source code
+  >> * [Adult Census](evaluation/adult)
+  >> * [Bank Marketing](evaluation/bank)
+  >> * [German Credit](evaluation/german)
+  >> * [Titanic](evaluation/titanic)
+
+
 ### Cite the paper as
 ```
 @article{nguyen2023fix,
