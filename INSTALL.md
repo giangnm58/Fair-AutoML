@@ -19,7 +19,7 @@ pip install -r requirements.txt
 ```
 
 ### Run the Fair-AutoML tool
-To replicate these outcomes, follow these steps: Access the evaluation section, where you'll encounter four distinct folders. These folders correspond to the evaluation source codes for four specific datasets: Adult Census, Bank Marketing, German Credit, and Titanic.
+To replicate Fair-AutoML's outcomes, follow these steps: Access the evaluation section, where you'll encounter four distinct folders. These folders correspond to the evaluation source codes for four specific datasets: Adult Census, Bank Marketing, German Credit, and Titanic.
 
 Inside each folder, you'll discover the pertinent source code. The name of each source file signifies the combination of the dataset, the machine learning algorithm employed, and the fairness metric assessed.
 
