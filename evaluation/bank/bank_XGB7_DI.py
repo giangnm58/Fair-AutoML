@@ -10,6 +10,13 @@ possible to define your own metric and use it to fit and evaluate your model.
 The following examples show how to use built-in and self-defined metrics for a
 classification problem.
 """
+import sys
+import os
+
+# Get the directory path containing autosklearn
+package_dir = os.path.abspath(os.path.join(os.path.dirname("Fair-AutoML"), '../..'))
+# Add the directory to sys.path
+sys.path.append(package_dir)
 import datetime
 import pickle
 

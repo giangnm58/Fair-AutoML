@@ -10,6 +10,13 @@ possible to define your own metric and use it to fit and evaluate your model.
 The following examples show how to use built-in and self-defined metrics for a
 classification problem.
 """
+import sys
+import os
+
+# Get the directory path containing autosklearn
+package_dir = os.path.abspath(os.path.join(os.path.dirname("Fair-AutoML"), '../..'))
+# Add the directory to sys.path
+sys.path.append(package_dir)
 
 # from ConfigSpace.configuration_space import ConfigurationSpace
 # from ConfigSpace.hyperparameters import CategoricalHyperparameter, UniformFloatHyperparameter, \
@@ -43,6 +50,9 @@ import autosklearn.classification
 from autosklearn.upgrade.metric import disparate_impact, statistical_parity_difference, equal_opportunity_difference, average_odds_difference
 from autosklearn.Fairea.utility import get_data,write_to_file
 from autosklearn.Fairea.fairea import create_baseline,normalize,get_classifier,classify_region,compute_area
+
+
+
 train_list = "data_orig_train_adult.pkl"
 test_list = "data_orig_test_adult.pkl"
 def custom_preprocessing(df):

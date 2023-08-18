@@ -1,3 +1,10 @@
+import sys
+import os
+
+# Get the directory path containing autosklearn
+package_dir = os.path.abspath(os.path.join(os.path.dirname("Fair-AutoML"), '../..'))
+# Add the directory to sys.path
+sys.path.append(package_dir)
 import datetime
 import pickle
 
