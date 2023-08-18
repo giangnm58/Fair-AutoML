@@ -31,6 +31,27 @@ Fair-AutoML is an extension of Auto-Sklearn, which is used to repair fairness bu
   >> * [German Credit](evaluation/german)
   >> * [Titanic](evaluation/titanic)
 
+To run Fair-AutoML, we need to install Python 3 environment on Linux. 
+The current version has been tested on Python 3.10. 
+
+## Installation
+### Environment Setup
+Follow these steps to clone the Fairify repository and install Fair-AutoML.
+
+1. Clone this repository and move to the directory:
+
+```
+git clone https://github.com/giangnm58/Fair-AutoML.git
+cd Fair-AutoML/
+``` 
+
+2. Navigate to the cloned repository: `cd Fair-AutoML/` and install required packages:
+
+```
+pip install -r requirements.txt
+```
+
+To run the tool, please refer to the [installation file](/INSTALL.md) for detailed instructions. 
 
 ### Cite the paper as
 ```
