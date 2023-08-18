@@ -25,8 +25,8 @@ import os, shutil
 
 
 
-train_list = ["data_orig_train10.pkl"]
-test_list = ["data_orig_test10.pkl"]
+train_list = "data_orig_train.pkl"
+test_list = "data_orig_test.pkl"
 for i in range(len(train_list)):
     def custom_preprocessing(df):
         def group_race(x):

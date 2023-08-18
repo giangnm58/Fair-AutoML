@@ -24,8 +24,8 @@ import os, shutil
 
 
 
-train_list = ["data_orig_train1.pkl"]
-test_list = ["data_orig_test1.pkl"]
+train_list = "data_orig_train.pkl"
+test_list = "data_orig_test.pkl"
 def custom_preprocessing(df):
     def group_race(x):
         if x == "White":

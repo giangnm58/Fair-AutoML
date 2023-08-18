@@ -28,8 +28,8 @@ import shutil
 
 from autosklearn.util.common import check_for_bool, check_none
 
-train_list = "data_orig_train_german1.pkl"
-test_list = "data_orig_test_german1.pkl"
+train_list = "data_orig_train_german.pkl"
+test_list = "data_orig_test_german.pkl"
 def custom_preprocessing(df):
     def group_credit_hist(x):
         if x in ['A30', 'A31', 'A32']:

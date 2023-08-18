@@ -38,8 +38,8 @@ import autosklearn.classification
 from autosklearn.upgrade.metric import disparate_impact, statistical_parity_difference, equal_opportunity_difference, average_odds_difference
 from autosklearn.util.common import check_for_bool, check_none
 
-train_list = "data_orig_train_bank5.pkl"
-test_list = "data_orig_test_bank5.pkl"
+train_list = "data_orig_train_bank.pkl"
+test_list = "data_orig_test_bank.pkl"
 def custom_preprocessing(df):
     def group_race(x):
         if x == "White":

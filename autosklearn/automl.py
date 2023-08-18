@@ -570,7 +570,7 @@ class AutoML(BaseEstimator):
                 module_dist = pkg_resources.get_distribution(name)
                 self._logger.debug('  %s', module_dist)
             else:
-                raise ValueError('Unable to read requirement: %s' % requirement)
+                pass
         self._logger.debug('Done printing environment information')
         self._logger.debug('Starting to print arguments to auto-sklearn')
         self._logger.debug('  output_folder: %s', self._backend.context._output_directory)
