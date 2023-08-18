@@ -10,13 +10,6 @@ Follow these steps to clone the Fairify repository and install Fair-AutoML.
 ```
 git clone https://github.com/giangnm58/Fair-AutoML.git
 cd Fair-AutoML/
-```
-
-1. Clone this repository and move to the directory:
-
-```
-git clone https://github.com/giangnm58/Fair-AutoML.git
-cd Fair-AutoML/
 ``` 
 
 2. Navigate to the cloned repository: `cd Fair-AutoML/` and install required packages:
