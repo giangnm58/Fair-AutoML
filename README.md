@@ -59,7 +59,7 @@ To run the tool, please refer to the [installation file](/INSTALL.md) for detail
 @article{nguyen2023fix,
   title={Fix Fairness, Don't Ruin Accuracy: Performance Aware Fairness Repair using AutoML},
   author={Nguyen, Giang and Biswas, Sumon and Rajan, Hridesh},
-  booktitle = {ESEC/FSE'2023: The ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering},
+  booktitle = {ESEC/FSE'2023: The 31st ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering},
   location = {San Francisco, California, United States},
   month = {December 3 - December 9},
   year = {2023},
