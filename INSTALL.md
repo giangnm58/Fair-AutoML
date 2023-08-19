@@ -15,7 +15,7 @@ cd Fair-AutoML/
 2. Navigate to the cloned repository: `cd Fair-AutoML/` and install required packages:
 
 ```
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 ### Run the Fair-AutoML tool
