@@ -56,13 +56,13 @@ To run the tool, please refer to the [installation file](/INSTALL.md) for detail
 
 ### Cite the paper as
 ```
-@article{nguyen2023fix,
-  title={Fix Fairness, Don't Ruin Accuracy: Performance Aware Fairness Repair using AutoML},
-  author={Nguyen, Giang and Biswas, Sumon and Rajan, Hridesh},
-  booktitle = {ESEC/FSE'2023: The 31st ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering},
-  location = {San Francisco, California, United States},
-  month = {December 3 - December 9},
-  year = {2023},
-  journal={arXiv preprint arXiv:2306.09297}
-}
+@inproceedings{nguyen23fix,
+    author = {Giang Nguyen and Sumon Biswas and Hridesh Rajan},
+    title = {Fix Fairness, Don't Ruin Accuracy: Performance Aware Fairness Repair using AutoML},
+    booktitle = {ESEC/FSE'2023: The 31st ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering},
+    location = {San Francisco, California},
+    month = {December 3-9, 2023},
+    year = {2023},
+    entrysubtype = {conference}
+  }
 ```
