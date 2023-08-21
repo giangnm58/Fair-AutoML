@@ -33,25 +33,26 @@ Below, you'll find a set of examples detailing how to execute our experiment eff
 cd evaluation/adult/
 python3 adult_GBC_AOD.py
 ```
-If you wish to expedite the experiment process, you can adjust the search time accordingly. For instance, to achieve faster results, consider making modifications to 'Line 362' within the 'evaluation/adult/ult_GBC_AOD.py' file.
+If you wish to expedite the experiment process, you can adjust the search time accordingly. For instance, to achieve faster results, consider making modifications to 'Line 362' within the 'evaluation/adult/adult_GBC_AOD.py' file.
 #### Experiment 2: Bank Marketing Dataset
 **Example:** To enhance the Disparate Impact (DI) metric for a buggy Random Forest (RF) model applied to the Bank Marketing (bank) dataset, execute the following command:
 ```
 cd evaluation/bank/
 python3 bank_RF_DI.py
 ```
-If you wish to expedite the experiment process, you can adjust the search time accordingly. For instance, to achieve faster results, consider making modifications to 'Line 362' within the 'evaluation/adult/ult_GBC_AOD.py' file.
+If you wish to expedite the experiment process, you can adjust the search time accordingly. For instance, to achieve faster results, consider making modifications to 'Line 356' within the 'evaluation/bank/bank_RF_DI.py' file.
 #### Experiment 3: German Credit Dataset
 **Example:** To enhance the Equal Opportunity Difference (EOD) metric for a buggy K-Nearest Neighbors (KNN) model applied to the German Credit (german) dataset, execute the following command:
 ```
 cd evaluation/german/
 python3 german_KNN_EOD.py
 ```
-
+If you wish to expedite the experiment process, you can adjust the search time accordingly. For instance, to achieve faster results, consider making modifications to 'Line 343' within the 'evaluation/german/german_KNN_EOD.py' file.
 #### Experiment 4: Titanic Dataset
 **Example:** To enhance the Statistical Parity Difference (SPD) metric for a XGBoost (XGB) model applied to the Titanic (titanic) dataset, execute the following command:
 ```
 cd evaluation/titanic/
 python3 titanic_XGB_SPD.py
 ```
+If you wish to expedite the experiment process, you can adjust the search time accordingly. For instance, to achieve faster results, consider making modifications to 'Line 422' within the 'evaluation/titanic/titanic_XGB_SPD.py' file.
 
