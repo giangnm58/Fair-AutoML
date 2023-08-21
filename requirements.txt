@@ -24,3 +24,4 @@ smac==1.1.1
 pipelineprofiler
 aif360
 shapely
+xgboost
