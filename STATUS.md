@@ -7,14 +7,14 @@ The artifact is publicly shared in the GitHub repository: `https://github.com/gi
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8280911.svg)](https://doi.org/10.5281/zenodo.8280911)
 
 ### Functional and Reusable
-The artifact contains both the data and software components that is executable. We also automated running the tool using command line interface. Specifically, our artifact contains the following to be fully functional. 
+The artifact contains both the data and software components that are executable. We also automated running the tool using the command line interface. Specifically, our artifact contains the following to be fully functional. 
 
-1. All four datasets needed to run the tool.
+1. All four datasets are needed to run the tool.
 2. We shared executable Python source code to run the tool.
-3. The benchmark models will be automatically saved in `pkl` files after the soure code excuted. 
+3. The benchmark models will be automatically saved in `.pkl` files after the soure code executed. 
 
 We also provided detailed instructions for installation, environment setup, and running the tool. Furthermore, we shared the following necessary components of the artifact to make it reusable:
 
 * We provided general instructions to run the tool on any operating system. 
 * Automatically install necessary packages.
-* The experimental results will be generated after the source code excuted.
+* The experimental results will be generated after the source code executed.
